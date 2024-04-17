@@ -1,0 +1,99 @@
+@import url('global.css');
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.container{
+    background-color: white;
+    width: 330px;    
+    height: 540px;
+    border-radius: 20px 20px 100px 20px;
+    padding: 40px 20px;
+    
+}
+
+.date__area{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.date__area--labels, .date__area--inputs{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.date__area--labels label{    
+    min-width: 84px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.date__area--inputs input{
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--Smokeygrey);
+}
+
+.btn__area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__area hr{
+    width: 123px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 25px;
+    color: var(--Lightgrey);
+        
+    
+}
+
+#btnCalc{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-color: var(--Purple);
+    border: none;
+    border-radius: 100%;
+    margin-top: 50px;
+    z-index: 10;
+
+}
+
+#btnCalc:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.result__area{
+    
+    margin-top: 50px;
+}
+
+.result__area p{
+    margin-bottom: 10px;
+    font-size: 65px;
+    font-weight: bolder;
+    color: var(--Purple);
+    font-style: italic;
+}
+
+.result__area p span{
+    color: black;
+}
+
